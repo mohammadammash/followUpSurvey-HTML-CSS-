@@ -1,0 +1,16 @@
+
+body{
+    margin: 0 25%;
+    border: 2px solid black;
+}
+
+
+/* HEADER */
+header{
+    background-color: white;
+}
+
+/* MAIN CONTENT */
+main{
+    background-color: beige;
+}
