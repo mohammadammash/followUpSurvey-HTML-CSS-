@@ -1,12 +1,15 @@
 /* BODY */
 body {
+  font-family: sans-serif;
   background-color: #acacaa;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
+  font-size: 14px;
 }
+
 
 /* MAIN CONTENT */
 main {
@@ -17,22 +20,29 @@ main {
   color: #b72637;
 }
 
+
 /* HEADER */
 header {
+  font-family: 'Dela Gothic One', 'cursive';
   background-color: #fefefe;
-  font-family: "Rubik", sans-serif;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 800;
   color: #77363e;
 }
 
+
+/* ALL QUESTIONS' TITLES */
 .title {
   color: #7e2029;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-/* Section */
+
+/* MAIN SECTION */
 section {
   padding: 2% 5%;
 }
@@ -62,22 +72,25 @@ input[type="radio"] {
   margin-bottom: 8px;
 }
 
-/* TEXTAREA */
+
+
+/* COMMENTS*/
 .comments {
-  margin: 30px 1%;
+  margin: 30px 0.6%;
 }
 textarea {
-  width: 99%;
+  width: 100%;
   border: 0.2px solid rgb(213, 212, 212);
   border-radius: 5px;
 }
+
 
 /* Submit Button */
 button[type="submit"] {
   display: block;
   padding: 8px 40px;
   color: white;
-  background-color: rgb(91, 91, 91);
+    background: linear-gradient(rgb(92, 92, 92), #808080);
   border-radius: 4px;
   border: 0;
 }
